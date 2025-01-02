@@ -35,7 +35,7 @@ This project implements a **Japanese to English translator** using Facebook's **
    ```
 
 2. **Download the Pre-Trained Model**:
-   Ensure the pre-trained MBART model is saved at the path specified in `app.py`. If not, download it from the [Hugging Face Model Hub]([https://huggingface.co/](https://huggingface.co/Nishur/jap_to_eng/tree/main)). 
+   Ensure the pre-trained MBART model is saved at the path specified in `app.py`. If not, download it from the [Hugging Face Model Hub](https://huggingface.co/Nishur/jap_to_eng/tree/main). 
 
 3. **Run the Application**:
    Start the Flask development server:
