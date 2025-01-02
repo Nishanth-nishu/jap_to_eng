@@ -63,6 +63,9 @@ This script demonstrates translations of sample Japanese sentences using the loa
 
 ## Potential Improvements
 
+### Training With A Large Dataset
+- As for he resource availability and shortage the model has been trained by less amount of data, which may give more nise and less accuravy in the translation model, by increaseing the size of the dataset can handel this issue and ggive more accurate result.
+
 ### Deployment
 - Deploy the application to a cloud platform such as **Google Cloud Run**, **AWS Elastic Beanstalk**, or **Heroku** to make it widely accessible.
 
