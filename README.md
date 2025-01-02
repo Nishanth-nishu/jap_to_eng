@@ -21,7 +21,7 @@ This project implements a **Japanese to English translator** using Facebook's **
 - Utilizes Facebook's **MBART-large-50-many-to-many-mmt**, a high-performance, pre-trained multilingual model.
 
 ### Client-Side Interaction
-- Translation functionality occurs client-side, leveraging JavaScript for a seamless experience. (Note: The implementation assumes a locally saved pre-trained model, eliminating the need for an API key.)
+- Translation functionality occurs client-side,a seamless experience. (Note: The implementation assumes a locally saved pre-trained model, eliminating the need for an API key.)
 
 ### Error Handling
 - Basic error handling in `app.py` ensures exceptions during the translation process are logged and handled gracefully.
