@@ -1,18 +1,25 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='interface_testing',
+    name='jap-to-eng-project',
     version='0.1.0',
     author='R Nishanth',
-    author_email="nishanth0962333@gmail.com"
-    packages=find_packages(),
+    author_email='nishanth0962333@gmail.com',
+    description='A data pipeline for model training and prediction',
+    packages=find_packages(where='src'),
+    package_dir={'': 'src'},
     install_requires=[
-        'flask',
-        'torch',
-        'transformers',
-        'nltk',
-        'janome',
-        'requests'
+        "torch",
+        "transformers",
+        "scikit-learn",
+        "tqdm",
+        "logging",
+        "flask",
     ],
-    include_package_data=True
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.6',
 )
