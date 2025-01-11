@@ -6,8 +6,7 @@ setup(
     author='R Nishanth',
     author_email='nishanth0962333@gmail.com',
     description='A data pipeline for model training and prediction',
-    packages=find_packages(where='src'),
-    package_dir={'': 'src'},
+    packages=find_packages(),
     install_requires=[
         "torch",
         "transformers",
